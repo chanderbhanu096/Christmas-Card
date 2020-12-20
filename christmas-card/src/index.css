@@ -11,3 +11,42 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.first-page {
+  background-image: url('./images/2954.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.first-page input {
+  margin-top: 34%;
+  margin-left: 34%;
+}
+
+.first-page button {
+  margin-top: 34%;
+  margin-left: 10px;
+}
+
+.card {
+  background-image: url('./images/42220.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.card p {
+  color: white;
+}
+
+.last-page {
+  background-image: url('./images/3162.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.last-page p {
+  color: white;
+}
