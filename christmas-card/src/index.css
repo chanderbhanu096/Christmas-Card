@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -20,12 +22,11 @@ code {
 }
 
 .first-page input {
-  margin-top: 34%;
-  margin-left: 34%;
+  margin-top: 25%;
 }
 
 .first-page button {
-  margin-top: 34%;
+  margin-top: 25%;
   margin-left: 10px;
 }
 
@@ -40,13 +41,43 @@ code {
   color: white;
 }
 
+.typewriter {
+  color: rgb(107, 243, 107);
+  margin-left: 35%;
+  font-size: 36px;
+  font-family: 'Gochi Hand', cursive;
+}
+
+.empty-space {
+  height: 100px;
+}
+
+.card-btn {
+  float: right;
+  margin-top: 10%;
+  margin-right: 20%;
+  background-color: rgb(99, 214, 99);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  font-size: 22px;
+}
+
 .last-page {
-  background-image: url('./images/3162.jpg');
+  background-image: url('./images/207.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  max-width: 100%;
 }
 
 .last-page p {
   color: white;
+}
+
+img {
+  height: 300px;
+  width: 300px;
 }
